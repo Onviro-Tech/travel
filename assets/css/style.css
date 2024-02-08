@@ -1123,6 +1123,7 @@ footer {
             margin: 0;
             padding: 10px;
             border-radius: 15px;
+            padding-left: 20px;
 
             &:focus {
                 outline: 0;
@@ -1157,18 +1158,30 @@ footer {
                 border: 0;
                 border-bottom: 1px solid #4A4A4A;
                 border-radius: 0;
+                padding-left: 20px;
+                font-weight: 500;
             }
 
             .budget-dropdown {
                 .dropdown-toggle {
                     border: 0;
                 }
+
                 .dropdown-toggle.show {
                     border-bottom: 1px solid #4A4A4A;
                 }
+
                 .dropdown-menu.show {
                     border: 0;
 
+                }
+            }
+
+            .dropdown-menu {
+                padding: 16px 0 16px 20px;
+
+                >li:not(:last-child) {
+                    margin-bottom: 6px;
                 }
             }
 
@@ -1187,6 +1200,11 @@ footer {
 
                 .form-check-input {
                     float: left;
+                }
+
+                .form-check-label {
+                    cursor: pointer;
+
                 }
             }
         }
@@ -1260,6 +1278,73 @@ footer {
         .btn-blue {
             padding: 10px;
             font-size: 14px;
+        }
+    }
+
+    .form-rating-days {
+        border: 1px solid #4A4A4A;
+        border-radius: 15px;
+        overflow: hidden;
+margin: 12px 0;
+        .form-ratings {
+            padding: 10px 20px;
+            border-bottom: 1px solid var(--sub-heading);
+        }
+
+        .form-days {
+            padding: 10px 20px;
+
+            .form-label {
+                font-size: 14px;
+                color: #292929;
+            }
+            .form-control {
+                border-radius: 10px;
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+
+        h6 {
+            color: var(--sub-heading);
+            font-size: 16px;
+            font-family: var(--poppins);
+        }
+
+        ul {
+            margin-bottom: 0;
+
+            li {
+                color: #FFAC2F;
+
+                margin: 0 2px;
+                font-size: 14px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .clear {
+        border: 0;
+        outline: 0;
+        box-shadow: none;
+        background: none;
+        font-size: 14px;
+        padding: 0;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .btn-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .btn-blue {
+            padding: 10px 30px;
         }
     }
 }

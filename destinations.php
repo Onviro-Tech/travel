@@ -21,9 +21,9 @@
                         <form action="">
                             <div class="filter-wrapper">
                                 <div class="form-dropdown">
-                                    <div class="region-dropdown">
+                                    <div class="region-dropdown custom-dropdown">
                                         <button class="btn btn-secondary dropdown-toggle show" type="button"
-                                            id="regionDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                            id="regionDropdown">
                                             Region
                                         </button>
                                         <ul class="dropdown-menu show" aria-labelledby="regionDropdown">
@@ -146,12 +146,12 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="activities-dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="activitiesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="activities-dropdown custom-dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle show" type="button"
+                                            id="activitiesDropdown">
                                             Activities
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="activitiesDropdown">
+                                        <ul class="dropdown-menu show" aria-labelledby="activitiesDropdown">
                                             <li>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value=""
@@ -226,12 +226,12 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="budget-dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="budgetDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="budget-dropdown custom-dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle show" type="button"
+                                            id="budgetDropdown">
                                             Budget
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="budgetDropdown">
+                                        <ul class="dropdown-menu show" aria-labelledby="budgetDropdown">
                                             <li>
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value=""
@@ -275,7 +275,7 @@
                                     </div>
                                     <div class="form-days">
                                         <h6>Days Range</h6>
-                                        <div class="d-flex">
+                                        <div class="d-flex gap-4">
                                             <div class="form-group">
                                                 <label for="min_days" class="form-label">Min Days</label>
                                                 <input type="email" class="form-control" id="min_days">
@@ -290,7 +290,7 @@
                             </div>
                             <div class="btn-wrapper">
                                 <button type="submit" class="btn-blue">
-                                    Search Results
+                                    Submit
                                 </button>
                                 <button class="clear" type="button">Clear Fliter</button>
                             </div>

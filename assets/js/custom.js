@@ -18,4 +18,14 @@ $(document).ready(function () {
         prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow-2.svg">',
         nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow-2.svg">'
     });
+
+    $('#regionDropdown').click(function() {
+        $(this).siblings('.dropdown-menu').toggleClass('show');
+    });
+    $('#activitiesDropdown').click(function() {
+        $(this).siblings('.dropdown-menu').toggleClass('show');
+    });
+    $('#budgetDropdown').click(function() {
+        $(this).siblings('.dropdown-menu').toggleClass('show');
+    });
 });
