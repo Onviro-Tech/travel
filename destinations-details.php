@@ -1,17 +1,20 @@
 <?php include './includes/header.php'; ?>
-<main>
+<main class="dest-details">
     <section class="inner-banner">
         <div class="container">
             <h1 class="text-center">Pokhara</h1>
         </div>
+        <figure class="banner-img">
+            <img src="assets/images/banner/dest1.jfif" alt="">
+        </figure>
     </section>
-    <section class="dest-details">
+    <section class="section-break">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="detail-side">
-                        <div class="ratings-group">
-                            <ul class="list-inline">
+                        <div class="rating-group">
+                            <ul class="list-inline stylist-btn">
                                 <li class="list-inline-item">
                                     <i class="fa-solid fa-star"></i>
                                 </li>
@@ -24,7 +27,7 @@
                                 <li class="list-inline-item">
                                     <i class="fa-solid fa-star"></i>
                                 </li>
-                                <li class="list-inline-item">
+                                <li class="list-inline-item rating-num">
                                     <p>(1 review)</p>
                                 </li>
                             </ul>
@@ -46,13 +49,13 @@
                                         <span class="input-group-text"><i class="fa-regular fa-envelope"></i></span>
                                     </div>
                                     <div class="input-group">
-                                        <span class="input-group-text"><img src="assets/images/svg/flag.svg"
+                                        <span class="input-group-text flag-icon"><img src="assets/images/svg/flag.svg"
                                                 alt="">(+977)</span>
                                         <input type="text" class="form-control" placeholder="Phone No.">
                                         <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
                                     </div>
                                     <div class="input-group">
-                                        <textarea class="form-control"></textarea>
+                                        <textarea class="form-control" placeholder="Messages" rows="4"></textarea>
                                     </div>
                                     <div class="btn-wrapper">
                                         <button class="btn-blue" type="submit">
@@ -142,59 +145,66 @@
                             <div class="heading-wrapper">
                                 <h2 class="inner-heading">Activities in Pokhara</h2>
                             </div>
-                        </div>
-                        <div class="activites-wrapper">
+                            <div class="activites-wrapper">
                             <div class="row gy-4 ">
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/para.jfif" alt="">
-                                            <figcaption>Paragliding</figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/para.jfif" alt="">
+                                                <figcaption>Paragliding</figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/sun.jfif" alt="">
-                                            <figcaption>Sunrise View</figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/sun.jfif" alt="">
+                                                <figcaption>Sunrise View</figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/hiking.jfif" alt="">
-                                            <figcaption>Hikking & Trekking </figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/hiking.jfif" alt="">
+                                                <figcaption>Hikking & Trekking </figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/boating.jfif" alt="">
-                                            <figcaption>Boating</figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/boating.jfif" alt="">
+                                                <figcaption>Boating</figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/zip.jfif" alt="">
-                                            <figcaption>Zip-lining</figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/zip.jfif" alt="">
+                                                <figcaption>Zip-lining</figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="activity-box">
-                                        <figure>
-                                            <img src="assets/images/details/biking.jfif" alt="">
-                                            <figcaption>Mountain Biking</figcaption>
-                                        </figure>
+                                    <div class="activity-box"><a href="activities-details.php">
+                                            <figure>
+                                                <img src="assets/images/details/biking.jfif" alt="">
+                                                <figcaption>Mountain Biking</figcaption>
+                                            </figure>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                       
                     </div>
                     <div class="dest-groups">
                         <div class="heading-wrapper">
@@ -423,13 +433,11 @@
                                     <li class="list-inline-item"><i class="fa-solid fa-star"></i></li>
                                 </ul>
                                 <h5>Esther Hills </h5>
-                                <p class="profession">Lead Intranet Technician</p>
-                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. </p>
+                                <p class="travelled-info">Traveled December 2023</p>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
                                 <span class="testimonial-submit">Review submitted 07 Jan 2024</span>
                             </div>
                         </div>
@@ -437,6 +445,92 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
 </main>
 <?php include './includes/footer.php'; ?>

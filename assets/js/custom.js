@@ -9,6 +9,16 @@ $(document).ready(function () {
         prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow.svg">',
         nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow.svg">'
     });
+    $('.details-img-slider').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow.svg">',
+        nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow.svg">'
+    });
     $('.testimonials-slider').slick({
         dots: false,
         infinite: false,

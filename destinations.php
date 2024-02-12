@@ -1,11 +1,14 @@
 <?php include './includes/header.php'; ?>
-<main>
+<main class="dest-page">
     <section class="inner-banner">
         <div class="container">
             <h1 class="text-center">Destinations</h1>
         </div>
+        <figure class="banner-img">
+            <img src="assets/images/banner/dest.jfif" alt="">
+        </figure>
     </section>
-    <section class="dest-page section-break">
+    <section class="section-break">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -29,8 +32,7 @@
                                         <ul class="dropdown-menu show" aria-labelledby="regionDropdown">
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="All">
+                                                    <input class="form-check-input" type="checkbox" value="" id="All">
                                                     <label class="form-check-label" for="All">
                                                         All
                                                     </label>
@@ -92,8 +94,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="Rara">
+                                                    <input class="form-check-input" type="checkbox" value="" id="Rara">
                                                     <label class="form-check-label" for="Rara">
                                                         Rara Lake Region
                                                     </label>
@@ -137,8 +138,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="Mid">
+                                                    <input class="form-check-input" type="checkbox" value="" id="Mid">
                                                     <label class="form-check-label" for="Mid">
                                                         Mid Western Nepal
                                                     </label>
@@ -154,8 +154,7 @@
                                         <ul class="dropdown-menu show" aria-labelledby="activitiesDropdown">
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="All">
+                                                    <input class="form-check-input" type="checkbox" value="" id="All">
                                                     <label class="form-check-label" for="All">
                                                         All
                                                     </label>
@@ -163,8 +162,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="heli">
+                                                    <input class="form-check-input" type="checkbox" value="" id="heli">
                                                     <label class="form-check-label" for="heli">
                                                         heli Tour
                                                     </label>
@@ -190,8 +188,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="Lake">
+                                                    <input class="form-check-input" type="checkbox" value="" id="Lake">
                                                     <label class="form-check-label" for="Lake">
                                                         Lake Treks
                                                     </label>
@@ -199,8 +196,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="Base">
+                                                    <input class="form-check-input" type="checkbox" value="" id="Base">
                                                     <label class="form-check-label" for="Base">
                                                         Base Camp Treks
                                                     </label>
@@ -243,8 +239,7 @@
                                             </li>
                                             <li>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value=""
-                                                        id="Mid">
+                                                    <input class="form-check-input" type="checkbox" value="" id="Mid">
                                                     <label class="form-check-label" for="Mid">
                                                         Mid-range
                                                     </label>
@@ -324,7 +319,7 @@
                         <div class="dest-groups">
                             <div class="row gy-4">
                                 <div class="col-md-4">
-                                    <div class="dest-box trending-dest">
+                                    <div class="dest-box trending-box">
                                         <div class="dest-info">
                                             <figure>
                                                 <img src="assets/images/destination/everest.jfif" alt="">
@@ -351,13 +346,13 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="dest-box trending-dest">
+                                    <div class="dest-box trending-box">
                                         <div class="dest-info">
                                             <figure>
                                                 <img src="assets/images/destination/pokhara.jfif" alt="">
@@ -383,13 +378,13 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="dest-box trending-dest">
+                                    <div class="dest-box trending-box">
                                         <div class="dest-info">
                                             <figure>
                                                 <img src="assets/images/destination/mount.jfif" alt="">
@@ -415,7 +410,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -448,7 +443,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -480,7 +475,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -512,7 +507,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -545,7 +540,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -577,7 +572,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>
@@ -609,7 +604,7 @@
                                                 </li>
                                             </ul>
                                             <div class="btn-wrapper">
-                                                <a href="#!" class="btn-blue">View Details</a>
+                                                <a href="destinations-details.php" class="btn-blue">View Details</a>
                                             </div>
                                         </div>
                                     </div>

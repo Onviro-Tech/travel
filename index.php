@@ -65,6 +65,9 @@
                     </div>
                 </div>
             </div>
+            <figure class="banner-img">
+                <img src="assets/images/banner.jfif" alt="">
+            </figure>
         </section>
         <section class="h-destinations section-break">
             <div class="container">
