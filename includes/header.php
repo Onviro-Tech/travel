@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -50,34 +51,39 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Home</a>
+                            </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown-toggle" href="destinations.php" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Destinations
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Pokhara</a></li>
-                                    <li><a class="dropdown-item" href="#">kathmandu</a></li>
+                                    <li><a class="dropdown-item" href="destinations-details.php">Pokhara</a></li>
+                                    <li><a class="dropdown-item" href="destinations-details.php">kathmandu</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown-toggle" href="activities.php" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Activities
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Tour</a></li>
-                                    <li><a class="dropdown-item" href="#">Hiking</a></li>
+                                    <li><a class="dropdown-item" href="activities-details.php">Tour</a></li>
+                                    <li><a class="dropdown-item" href="activities-details.php">Hiking</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown-toggle" href="packages.php" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Packages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Pokhara to Kathmandu</a></li>
-                                    <li><a class="dropdown-item" href="#">kathmandu to Chitwan</a></li>
+                                    <li><a class="dropdown-item" href="packages-details.php">Pokhara to Kathmandu</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="packages-details.php">kathmandu to Chitwan</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">

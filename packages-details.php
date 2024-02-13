@@ -184,7 +184,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="details-info">
+                        <div class="details-info package-info">
                             <div class="info-wrapper">
                                 <h3 id="overview">Overview</h3>
                                 <p>Trek through the Himalayas to the legendary Mount Everest Base Camp, where you'll
@@ -297,92 +297,102 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+        <div class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <figure class="contact-figure">
+                            <img src="assets/images/contact.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="heading-wrapper">
+                            <h2 class="heading"><b>Drop</b> your Feedback here</h2>
+                        </div>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Full Name
+                                            <span class="color-red">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Eg. John Cha">
+                                            <span class="input-group-text">
+                                                <i class="fa-regular fa-user"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Nationality
+                                            <span class="color-red">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <select class="form-control ">
+                                                <option value="" disabled selected>Select Option</option>
+                                                <option value="">Nepal</option>
+                                                <option value="">China</option>
+                                                <option value="">Japan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Phone number
+                                            <span class="color-red">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text flag-icon">
+                                                <img src="assets/images/svg/flag.svg" alt="">(+977)
+                                            </span>
+                                            <input type="number" class="form-control" placeholder="Phone No.">
+                                            <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Email Address
+                                            <span class="color-red">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Eg. John Cha">
+                                            <span class="input-group-text">
+                                                <i class="fa-regular fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Feedback
+                                            <span class="color-red">*</span>
+                                        </label>
+                                        <div class="input-group">
+                                            <textarea rows="5" placeholder="Feedback" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-wrapper">
+                                        <button type="submit" class="btn-blue">Send<i
+                                                class="fa-solid fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 <?php include './includes/footer.php'; ?>

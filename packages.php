@@ -351,19 +351,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -404,19 +402,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -457,19 +453,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -510,19 +504,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -563,19 +555,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -616,19 +606,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -669,19 +657,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -722,19 +708,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -775,19 +759,17 @@
                                         </div>
                                         <div class="dest-details">
                                             <ul>
-                                                <li><img src="assets/images/svg/loc.svg"
-                                                        alt="">Kilimanjaro, Tanzania</li>
-                                                <li><img src="assets/images/svg/caal.svg"
-                                                        alt="">7 Day
+                                                <li><img src="assets/images/svg/loc.svg" alt="">Kilimanjaro, Tanzania
                                                 </li>
-                                                <li><img src="assets/images/svg/trekking.svg"
-                                                        alt="">Trekking</li>
+                                                <li><img src="assets/images/svg/caal.svg" alt="">7 Day
+                                                </li>
+                                                <li><img src="assets/images/svg/trekking.svg" alt="">Trekking</li>
                                             </ul>
                                         </div>
                                         <div class="btn-wrapper">
                                             <a href="packages-details.php" class="btn-blue">Explore</a>
                                             <p class="price-details">
-                                               <b>Rs.2,299</b>
+                                                <b>Rs.2,299</b>
                                                 per person
                                             </p>
                                         </div>
@@ -795,7 +777,7 @@
 
                                     </div>
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>
