@@ -11,7 +11,7 @@
     <section class="section-break">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-md-4">
                     <div class="dest-search">
                         <form action="">
                             <div class="form-group">
@@ -292,7 +292,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-xl-9 col-md-8">
                     <div class="dest-list">
                         <div class="pagination-wrapper">
                             <p>Showing 9 out of 100 </p>
@@ -318,7 +318,7 @@
                         </div>
                         <div class="activites-wrapper">
                             <div class="row gy-4 ">
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box exclusive-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -328,7 +328,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box exclusive-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -338,7 +338,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box exclusive-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -349,7 +349,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -359,7 +359,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -369,7 +369,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -379,7 +379,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -389,7 +389,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>
@@ -399,7 +399,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4 col-md-6">
                                     <div class="activity-box">
                                         <a href="activities-details.php">
                                             <figure>

@@ -17,6 +17,7 @@
         href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
@@ -27,23 +28,25 @@
             </div>
         </div>
         <div class="header-absolute position-absolute">
-            <div class="container h-info-social d-flex justify-content-between align-items-center">
-                <ul class="list-inline h-info">
-                    <li class="list-inline-item">
-                        <a href="#"><i class="fa-regular fa-envelope"></i>rae@xyztz.com</a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa-solid fa-phone"></i>(+977) 9800000000</a>
-                    </li>
-                </ul>
-                <ul class="list-inline h-social">
-                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-                </ul>
+            <div class="container">
+                <div class="h-info-social d-flex justify-content-between align-items-center">
+                    <ul class="list-inline h-info">
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa-regular fa-envelope"></i>rae@xyztz.com</a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-solid fa-phone"></i>(+977) 9800000000</a>
+                        </li>
+                    </ul>
+                    <ul class="list-inline h-social">
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
             <nav class="navbar navbar-expand-lg bg-transparent">
                 <div class="container">
-                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -87,14 +90,14 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="about.php">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                         </ul>
                         <div class="btn-wrapper">
-                            <a href="#" class="btn-blue">Book Now <i class="fa-solid fa-paper-plane"></i></a>
+                            <a href="booking.php" class="btn-blue">Book Now <i class="fa-solid fa-paper-plane"></i></a>
                         </div>
                     </div>
                 </div>

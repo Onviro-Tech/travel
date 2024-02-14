@@ -1,5 +1,5 @@
 <?php include './includes/header.php'; ?>
-<main class="contact-page">
+<main class="about-page">
     <section class="inner-banner">
         <div class="container">
             <h1 class="text-center">About<b>Us</b></h1>
@@ -8,70 +8,236 @@
             <img src="assets/images/banner/mount.png" alt="">
         </figure>
     </section>
-    <section class="contact-part section-break">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-md-4">
-                    <div class="booking-group">
-                        <div class="btn-wrapper">
-                            <h3 href="#!" class="stylist-btn">Send Quick Message</h3>
-                        </div>
-                        <div class="inquiry-wrapper">
-                            <form action="#">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                    <span class="input-group-text"><i class="fa-regular fa-user"></i></span>
-
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Email">
-                                    <span class="input-group-text"><i class="fa-regular fa-envelope"></i></span>
-                                </div>
-                                <div class="input-group">
-                                    <span class="input-group-text flag-icon"><img src="assets/images/svg/flag.svg"
-                                            alt="">(+977)</span>
-                                    <input type="text" class="form-control" placeholder="Phone No.">
-                                    <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
-                                </div>
-                                <div class="input-group">
-                                    <textarea class="form-control" placeholder="Messages" rows="4"></textarea>
-                                </div>
-                                <div class="btn-wrapper">
-                                    <button class="btn-blue" type="submit">
-                                        SUBMit
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+    <section class="about-content">
+        <div class="about-bar">
+            <div class="container">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><i class="fa-solid fa-star"></i>4.5 Rated</li>
+                    <li class="list-group-item"><i class="fa-solid fa-circle-check"></i>24/7 Support</li>
+                    <li class="list-group-item"><i class="fa-solid fa-circle-check"></i>Local Expertise</li>
+                    <li class="list-group-item"><i class="fa-solid fa-circle-check"></i>Responsive Customer Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="about-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="figure"><img src="assets/images/camping.jfif" class="figure-img"></figure>
                     </div>
-                    <div class="social-group">
+                    <div class="col-md-8">
+                        <div class="heading-wrapper">
+                            <h2 class="heading">Welcome to <span>Sunny Holidays Nepal</span></h2>
+                        </div>
                         <article>
-                            <h4>We’re here !</h4>
-                            <p>Follow Us on Social Media for the latest 
-                                updates, behind-the-scenes glimpses,
-                                 and exclusive offers.</p>
+                            <p>Trek through the Himalayas to the legendary Mount Everest Base Camp, where you'll follow
+                                in the footsteps of mountaineers amidst breathtaking scenery. Begin your journey in
+                                Kathmandu before flying to Lukla to start the trek. Pass through Sherpa villages and
+                                rhododendron forests, acclimatizing as you ascend. Reach iconic landmarks like Namche
+                                Bazaar and Tengboche Monastery before arriving at Everest Base Camp, a pinnacle of
+                                achievement. Stand in awe of Everest's towering summit and hike to Kala Patthar for
+                                sunrise views. This transformative adventure offers unforgettable memories and a
+                                newfound appreciation for the majestic Himalayas.</p>
                         </article>
-                        <ul class="list-inline">
-                            <li class="list-inline-item "><a href="#!"><img src="assets/images/socials/faceboook.png" alt=""></a></li>
-                            <li class="list-inline-item "><a href="#!"><img src="assets/images/socials/twitter.png" alt=""></a></li>
-                            <li class="list-inline-item "><a href="#!"><img src="assets/images/socials/instagram.png" alt=""></a></li>
-                            <li class="list-inline-item "><a href="#!"><img src="assets/images/socials/whatsapp.png" alt=""></a></li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="contact-info">
-                        <h4>Info</h4>
-                        <ul>
-                            <li><a href="#!"><i class="fa-solid fa-location-dot"></i>Kathmandu Nepal</a></li>
-                            <li><a href="#!"><i class="fa-solid fa-phone"></i>(+977) 9800000000</a></li>
-                            <li><a href="#!"><i class="fa-regular fa-envelope"></i>xyz@gmail.com</a></li>
-                            <li><a href="#!"><i class="fa-solid fa-mobile-screen-button"></i>(+977) 9800000000</a></li>
-                            <li><a href="#!"><i class="fa-brands fa-whatsapp"></i>Whatsapp / Viber: (+977) 9800000000</a></li>
-                        </ul>
+            </div>
+        </div>
+        <div class="about-services ">
+            <div class="container">
+                <div class="heading-wrapper">
+                    <h4 class="heading">Our Services</h4>
+                </div>
+                <div class="gy-4 row">
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure">
+                                <img src="assets/images/svg/about/package.png" alt="Tour Packages" class="figure-img">
+                            </figure>
+                            <p>Tour Packages</p>
+                        </div>
                     </div>
-                    <div class="map-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.27776869125!2d85.28493324795724!3d27.709030241443347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1707814636640!5m2!1sen!2snp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure"><img src="assets/images/svg/about/list.png"
+                                    alt="Customized Itineraries" class="figure-img"></figure>
+                            <p>Customized Itineraries</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure"><img src="assets/images/svg/about/plane.svg" alt="Flight Booking"
+                                    class="figure-img"></figure>
+                            <p>Flight Booking</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure"><img src="assets/images/svg/about/location.png"
+                                    alt="Accommodation Booking" class="figure-img"></figure>
+                            <p>Accommodation Booking</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure"><img src="assets/images/svg/about/transportation.png"
+                                    alt="Transportation" class="figure-img"></figure>
+                            <p>Transportation</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-box">
+                            <figure class="figure"><img src="assets/images/svg/about/guide.png" alt="Guided Tours"
+                                    class="figure-img"></figure>
+                            <p>Guided Tours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-wrapper"><a role="button" tabindex="0" href="#!" class="btn-blue btn btn-primary">View
+                        More</a></div>
+            </div>
+        </div>
+        <div class="about-teams">
+            <div class="container">
+                <div class="heading-wrapper">
+                    <h4 class="heading">Meet Our Teams</h4>
+                </div>
+                <div class="teams-slider">
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/1.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/2.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/3.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/1.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/2.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/3.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/1.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/2.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="teams-box">
+                            <figure class="figure"><img src="assets/images/user/3.jfif" class="figure-img">
+                            </figure>
+                            <article>
+                                <h5>John Doe</h5>
+                                <p>Travel Consutant</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-travel">
+            <div class="container">
+                <div class="heading-wrapper">
+                    <h4 class="heading">Travel Diaries</h4>
+                </div>
+                <div class="travel-wrapper">
+                    <div class="gy-3 row">
+                        <div class="col-md-4">
+                            <div class="travel-box">
+                                <figure class="figure"><img src="assets/images/travel/1.jfif" class="figure-img">
+                                    <figcaption class="figure-caption">John Doe</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="travel-box">
+                                <figure class="figure"><img src="assets/images/travel/2.jfif" class="figure-img">
+                                    <figcaption class="figure-caption">John Doe</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="travel-box">
+                                <figure class="figure"><img src="assets/images/travel/3.jfif" class="figure-img">
+                                    <figcaption class="figure-caption">John Doe</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="travel-box">
+                                <figure class="figure"><img src="assets/images/travel/4.jfif" class="figure-img">
+                                    <figcaption class="figure-caption">John Doe</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="travel-box">
+                                <figure class="figure"><img src="assets/images/travel/5.jfif" class="figure-img">
+                                    <figcaption class="figure-caption">John Doe</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

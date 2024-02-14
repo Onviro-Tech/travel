@@ -27,7 +27,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-md-4">
                     <div class="detail-side">
                         <div class="booking-group">
                             <div class="btn-wrapper">
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-xl-9 col-md-8">
                     <div class="details-main">
                         <div class="package-summary">
                             <div class="row gy-4 ">
@@ -301,12 +301,12 @@
         <div class="contact-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-xl-5 col-md-4">
                         <figure class="contact-figure">
                             <img src="assets/images/contact.png" alt="">
                         </figure>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-xl-7 col-md-8">
                         <div class="heading-wrapper">
                             <h2 class="heading"><b>Drop</b> your Feedback here</h2>
                         </div>

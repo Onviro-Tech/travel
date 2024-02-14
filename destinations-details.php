@@ -11,7 +11,7 @@
     <section class="section-break">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-md-4">
                     <div class="detail-side">
                         <div class="rating-group">
                             <ul class="list-inline stylist-btn">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-xl-9 col-md-8">
                     <div class="details-main">
                         <div class="details-info">
                             <div class="info-wrapper">
@@ -146,65 +146,65 @@
                                 <h2 class="inner-heading">Activities in Pokhara</h2>
                             </div>
                             <div class="activites-wrapper">
-                            <div class="row gy-4 ">
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/para.jfif" alt="">
-                                                <figcaption>Paragliding</figcaption>
-                                            </figure>
-                                        </a>
+                                <div class="row gy-4 ">
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/para.jfif" alt="">
+                                                    <figcaption>Paragliding</figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/sun.jfif" alt="">
-                                                <figcaption>Sunrise View</figcaption>
-                                            </figure>
-                                        </a>
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/sun.jfif" alt="">
+                                                    <figcaption>Sunrise View</figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/hiking.jfif" alt="">
-                                                <figcaption>Hikking & Trekking </figcaption>
-                                            </figure>
-                                        </a>
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/hiking.jfif" alt="">
+                                                    <figcaption>Hikking & Trekking </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/boating.jfif" alt="">
-                                                <figcaption>Boating</figcaption>
-                                            </figure>
-                                        </a>
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/boating.jfif" alt="">
+                                                    <figcaption>Boating</figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/zip.jfif" alt="">
-                                                <figcaption>Zip-lining</figcaption>
-                                            </figure>
-                                        </a>
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/zip.jfif" alt="">
+                                                    <figcaption>Zip-lining</figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="activity-box"><a href="activities-details.php">
-                                            <figure>
-                                                <img src="assets/images/details/biking.jfif" alt="">
-                                                <figcaption>Mountain Biking</figcaption>
-                                            </figure>
-                                        </a>
+                                    <div class="col-md-4">
+                                        <div class="activity-box"><a href="activities-details.php">
+                                                <figure>
+                                                    <img src="assets/images/details/biking.jfif" alt="">
+                                                    <figcaption>Mountain Biking</figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
-                       
+
                     </div>
                     <div class="dest-groups">
                         <div class="heading-wrapper">
@@ -212,7 +212,7 @@
                                 You May Like</h2>
                         </div>
                         <div class="row gy-4">
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box trending-dest">
                                     <div class="dest-info">
                                         <figure>
@@ -245,7 +245,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box trending-dest">
                                     <div class="dest-info">
                                         <figure>
@@ -277,7 +277,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box trending-dest">
                                     <div class="dest-info">
                                         <figure>
@@ -309,7 +309,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box">
                                     <div class="dest-info">
                                         <figure>
@@ -342,7 +342,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box">
                                     <div class="dest-info">
                                         <figure>
@@ -374,7 +374,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-xl-4 col-md-6">
                                 <div class="dest-box">
                                     <div class="dest-info">
                                         <figure>

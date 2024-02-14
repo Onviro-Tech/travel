@@ -11,7 +11,7 @@
     <section class="section-break">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-md-4">
                     <div class="detail-side">
                         <div class="rating-group">
                             <ul class="list-inline stylist-btn">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-xl-9 col-md-8">
                     <div class="details-main">
                         <div class="details-info">
                             <div class="info-wrapper">

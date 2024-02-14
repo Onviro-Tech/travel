@@ -15,7 +15,7 @@
                 </h3>
             </div>
             <div class="row justify-content-center ">
-                <div class="col-md-6">
+                <div class="col-xl-6 col-md-8">
                     <div class="booking-form">
                         <form action="">
                             <div class="row gy-3">
@@ -418,7 +418,7 @@
                                         <div class="input-group">
                                             <span class="input-group-text flag-icon">
                                                 <img src="assets/images/svg/flag.svg" alt="">(+977)
-                                                
+
                                             </span>
                                             <input type="number" class="form-control" placeholder="Phone No.">
                                             <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
