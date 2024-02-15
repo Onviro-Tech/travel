@@ -22,10 +22,10 @@
         <div class="about-info">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-5">
                         <figure class="figure"><img src="assets/images/camping.jfif" class="figure-img"></figure>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8 col-md-7">
                         <div class="heading-wrapper">
                             <h2 class="heading">Welcome to <span>Sunny Holidays Nepal</span></h2>
                         </div>

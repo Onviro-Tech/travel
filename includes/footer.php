@@ -1,7 +1,16 @@
 <footer>
     <div class="container">
         <div class="row justify-content-end ">
-            <div class="col-md-7">
+            <div class="col-xl-1 col-lg-2 col-md-2 ">
+                <div class="footer-logo">
+                    <a href="index.php">
+                        <figure>
+                            <img src="assets/images/logo.png" alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-6 order-2 order-md-0">
                 <div class="footer-links">
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="#!">Destinations</a></li>
@@ -31,7 +40,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-lg-4 col-md-4 order-1 order-md-0">
                 <div class="inquiry">
                     <h6>Subscribe To Our Newsletter</h6>
                     <form action="">

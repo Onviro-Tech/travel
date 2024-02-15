@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="header-absolute position-absolute">
-            <div class="container">
+            <div class="container d-none d-lg-block">
                 <div class="h-info-social d-flex justify-content-between align-items-center">
                     <ul class="list-inline h-info">
                         <li class="list-inline-item">
@@ -46,13 +46,17 @@
             </div>
             <nav class="navbar navbar-expand-lg bg-transparent">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="index.php"><img src="./assets/images/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="logo-sm d-md-flex d-lg-none">
+                            <img class="logo-img" src="./assets/images/logo.png" alt="">
+                            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                        </div>
                         <ul class="navbar-nav mx-auto gap-4">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php">Home</a>
@@ -98,6 +102,26 @@
                         </ul>
                         <div class="btn-wrapper">
                             <a href="booking.php" class="btn-blue">Book Now <i class="fa-solid fa-paper-plane"></i></a>
+                        </div>
+                        <div class="d-md-block d-lg-none">
+                            <div class="h-info-social d-flex justify-content-between align-items-center">
+                                <ul class="list-inline h-info">
+                                    <li class="list-inline-item">
+                                        <a href="#"><i class="fa-regular fa-envelope"></i>rae@xyztz.com</a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa-solid fa-phone"></i>(+977)
+                                            9800000000</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-inline h-social">
+                                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="#"><i
+                                                class="fa-brands fa-square-instagram"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

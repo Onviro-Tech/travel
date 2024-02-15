@@ -27,7 +27,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-3 col-lg-4 col-md-5 order-md-0 order-2">
                     <div class="detail-side">
                         <div class="booking-group">
                             <div class="btn-wrapper">
@@ -88,11 +88,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-9 col-md-8">
+                <div class="col-xl-9 col-lg-8 col-md-7 order-md-0 order-1">
                     <div class="details-main">
                         <div class="package-summary">
                             <div class="row gy-4 ">
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/cal.svg" alt="">
@@ -107,7 +107,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/location.svg" alt="">
@@ -122,7 +122,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/map.svg" alt="">
@@ -137,7 +137,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/users.svg" alt="">
@@ -152,7 +152,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/trekking.svg" alt="">
@@ -167,7 +167,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
                                         <figure class="summary-icon">
                                             <img src="assets/images/svg/packages/weather.svg" alt="">
@@ -301,12 +301,12 @@
         <div class="contact-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-md-4">
+                    <div class="col-xl-5 col-lg-4  d-none d-lg-block">
                         <figure class="contact-figure">
                             <img src="assets/images/contact.png" alt="">
                         </figure>
                     </div>
-                    <div class="col-xl-7 col-md-8">
+                    <div class="col-xl-7 col-lg-8 col-md-9">
                         <div class="heading-wrapper">
                             <h2 class="heading"><b>Drop</b> your Feedback here</h2>
                         </div>

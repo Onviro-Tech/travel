@@ -15,7 +15,7 @@
                 </h3>
             </div>
             <div class="row justify-content-center ">
-                <div class="col-xl-6 col-md-8">
+                <div class="col-xl-6 col-lg-8 col-md-12">
                     <div class="booking-form">
                         <form action="">
                             <div class="row gy-3">

@@ -13,8 +13,8 @@
                 </div>
                 <div class="travel-info flex-grow-1 ">
                     <form action="">
-                        <div class="row">
-                            <div class="col">
+                        <div class="row gy-4">
+                            <div class="col-lg col-md-6">
                                 <div class="input-group">
                                     <img src="assets/images/svg/location.svg" alt="location">
                                     <select class="form-control form-select">
@@ -25,7 +25,7 @@
 
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg col-md-6">
                                 <div class="input-group"><img src="assets/images/svg/weather.svg" alt="weather">
                                     <select class="form-select">
                                         <option selected disabled>Weather</option>
@@ -34,7 +34,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg col-md-4">
                                 <div class="input-group">
                                     <img src="assets/images/svg/activites.svg" alt="Activities">
                                     <select class="form-select">
@@ -44,7 +44,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg col-md-4">
                                 <div class="input-group"><img src="assets/images/svg/calendar.svg" alt="duration">
                                     <select class="form-select">
                                         <option selected disabled>duration</option>
@@ -53,7 +53,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-lg col-md-4">
                                 <div class="btn-wrapper">
                                     <button type="submit" class="btn-blue">
                                         Search Results
@@ -134,12 +134,12 @@
             <h2 class="heading">Explore Activities in Map</h2>
             <div class="treks-wrapper">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-lg-8 col-md-7">
                         <figure>
                             <img src="assets/images/map.png" alt="map">
                         </figure>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-5">
                         <div class="treks">
                             <h4 class="stylist-btn">Base Camp Treks</h4>
                             <ul>
@@ -153,35 +153,35 @@
                 </div>
             </div>
             <div class="activites-links">
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center gy-lg-0  gy-4">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
                             <figure><img src="assets/images/activites/helicopter.png" alt="helicopter"></figure>
                             <h6>Heli Tour</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
                             <figure><img src="assets/images/activites/mountain-range.png" alt="Mountaineering">
                             </figure>
                             <h6>Mountaineering</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
 
                             <figure><img src="assets/images/activites/safari.png" alt="Safari Tour"></figure>
                             <h6>Safari Tour</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
 
                             <figure><img src="assets/images/activites/lake.png" alt="Lake Treks"></figure>
                             <h6>Lake Treks</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
 
                             <figure><img src="assets/images/activites/military-base.png" alt="Base Camp Treks">
@@ -189,7 +189,7 @@
                             <h6>Base Camp Treks</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
 
                             <figure><img src="assets/images/activites/trekking-pole.png" alt="Circuit Treks">
@@ -197,7 +197,7 @@
                             <h6>Circuit Treks</h6>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col-lg col-md-3 col-6">
                         <a href="#">
 
                             <figure><img src="assets/images/activites/baggages.png" alt="Beyond Nepal"></figure>
@@ -217,7 +217,7 @@
                     Categories</h2>
             </div>
             <div class="categories-wrapper">
-                <div class="row gx-5">
+                <div class="row gx-lg-5 ">
                     <div class="col-md-4">
                         <div class="cate-box">
                             <figure>
@@ -265,7 +265,7 @@
             </h2>
             <div class="packages-warpper">
                 <div class="row gy-4">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -298,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -331,7 +331,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -364,7 +364,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -397,7 +397,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -430,7 +430,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="packages-box">
                             <div class="packages-img">
                                 <figure>
@@ -476,13 +476,13 @@
             <h2 class="heading">What Travelers Say About Us</h2>
             <div class="testimonials-wrapper">
                 <div class="row justify-content-between ">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 d-none d-lg-block">
                         <div class="clients-wrapper">
                             <h4>Clients
                                 Testimonials</h4>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="testimonials-slide-wrapper">
                             <div class="testimonials-slider">
                                 <div>
@@ -550,5 +550,100 @@
             </div>
         </div>
     </section>
+    <div class="h-contact contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-4  d-none d-lg-block">
+                    <figure class="contact-figure">
+                        <img src="assets/images/contact.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xl-7 col-lg-8 col-md-9">
+                    <div class="heading-wrapper">
+                        <h2 class="heading"><b>Drop</b> your Feedback here</h2>
+                    </div>
+                    <form action="">
+                        <div class="row gy-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Full Name
+                                        <span class="color-red">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Eg. John Cha">
+                                        <span class="input-group-text">
+                                            <i class="fa-regular fa-user"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Nationality
+                                        <span class="color-red">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <select class="form-control ">
+                                            <option value="" disabled selected>Select Option</option>
+                                            <option value="">Nepal</option>
+                                            <option value="">China</option>
+                                            <option value="">Japan</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Phone number
+                                        <span class="color-red">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text flag-icon">
+                                            <img src="assets/images/svg/flag.svg" alt="">(+977)
+                                        </span>
+                                        <input type="number" class="form-control" placeholder="Phone No.">
+                                        <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label">Email Address
+                                        <span class="color-red">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Eg. John Cha">
+                                        <span class="input-group-text">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="form-label">Feedback
+                                        <span class="color-red">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <textarea rows="5" placeholder="Feedback" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="btn-wrapper">
+                                    <button type="submit" class="btn-blue">Send<i
+                                            class="fa-solid fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <?php include './includes/footer.php'; ?>

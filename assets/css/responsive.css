@@ -9,57 +9,78 @@
     font-size: 14px;
   }
 
-  nav.navbar .btn-wrapper .btn-blue {
-    padding: 10px 20px;
+  nav.navbar .navbar-brand {
+    width: 80px;
+    height: 80px;
   }
+
+  nav.navbar .btn-wrapper .btn-blue {
+    padding: 10px;
+    font-size: 14px;
+  }
+
   .h-banner {
     height: 640px;
   }
+
   .h-banner .travel-info {
     padding: 20px;
     margin-bottom: -56px;
   }
+
   .h-banner .travel-info .form-select {
     font-size: 14px;
   }
+
   .h-destinations {
     padding-top: 120px;
+
     .slider-wrapper figure {
       height: 160px;
     }
   }
+
   .h-destinations .btn-wrapper .btn-blue,
   .h-categories .btn-wrapper .btn-blue {
     padding: 14px 36px;
   }
+
   .h-activites {
     padding-top: 0;
+
     .treks {
       ul {
         padding-right: 0;
+
         a {
           font-size: 14px;
         }
       }
     }
+
     .activites-links {
       h6 {
         font-size: 13px;
       }
+
       figure {
         height: 106px;
         margin-bottom: 10px;
       }
     }
   }
+
   .h-categories {
     padding: 60px 0;
   }
+
   .h-categories .categories-wrapper .cate-box.m-top {
     margin-top: 50px;
   }
+
   .h-categories .categories-wrapper .cate-box figure {
     height: 400px;
+
     figcaption {
       width: 65%;
     }
@@ -68,113 +89,911 @@
   .stylist-btn {
     font-size: 18px;
   }
+
   .heading {
     font-size: 30px;
   }
+
   .h-packages .packages-box {
     .packages-img {
       ul {
         font-size: 13px;
       }
     }
+
     .packages-info {
       li {
         display: block;
       }
+
       h3 {
         margin-bottom: 10px;
         font-size: 18px;
       }
     }
+
     figure {
       height: 160px;
     }
   }
+
   .h-packages .packages-warpper .btn-wrapper {
     p {
       font-size: 16px;
     }
+
     .btn-blue {
       padding: 10px 26px;
     }
   }
+
   .h-testimonials {
     padding: 60px 0;
   }
+
   .dest-details .activity-box figure {
     height: 150px;
+
     figcaption {
       font-size: 14px;
       padding: 10px;
       width: 160px;
     }
   }
+
   .inner-heading {
     font-size: 40px;
   }
+
   .dest-details .dest-groups .inner-heading &::before {
     right: 33%;
   }
+
   .dest-details .details-reviews .rating-total {
     margin-bottom: 20px;
   }
+
   .dest-details .info-wrapper h3 {
     font-size: 26px;
     line-height: 1.4;
   }
+
   .act-details .inner-heading::before {
     right: 24.5%;
   }
+
   .act-details .activity-box figure figcaption {
     width: 110px;
     top: 50%;
   }
+
   footer {
+    .footer-logo {
+      figure {
+        height: 80px;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .footer-links {
+      ul {
+        justify-content: space-between;
+      }
+    }
+
+    .footer-info {
+      ul {
+        justify-content: space-around;
+        gap: 0 !important;
+      }
+    }
+
     .footer-links,
     .footer-info {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
-    .footer-social ul a {
-      font-size: 20px;
+
+    .footer-social {
+
+      ul {
+        gap: 10px;
+
+        a {
+          font-size: 26px;
+        }
+      }
     }
+
     .inquiry {
       h6 {
         margin-bottom: 30px;
       }
+
       .btn-wrapper {
         margin-top: 20px;
       }
     }
   }
+
   .pack-details .summary-box .summary-icon {
     width: 26px;
     height: 26px;
   }
+
   .pack-details .summary-box .summary-ul h5 {
     font-size: 16px;
   }
+
   .contact-section .heading {
     font-size: 37px;
     margin-right: 0;
   }
+
+  .contact-section .heading::after {
+    right: 58px;
+  }
+
   .contact-section form {
     margin-bottom: 50px;
   }
+
   .about-page .about-travel .travel-box figure {
     height: 200px;
   }
+
   .about-page .heading-wrapper .heading {
     font-size: 30px;
   }
+
   .about-page .about-bar ul li {
     font-size: 14px;
   }
+
+  .dest-details .dest-groups .inner-heading &::before {
+    right: 33%;
+  }
 }
+
 @media only screen and (max-width: 991px) {
+  body.height-fixed {
+    overflow: hidden;
+    position: relative;
+
+    .height-fixed-overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100dvh;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 19;
+      content: "";
+    }
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background: #0c649f;
+    z-index: 21;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+    transition: right 0.3s ease-in-out;
+
+    &.show {
+      right: 0;
+    }
+
+    >* {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+
+    form {
+      order: 1;
+      padding: 0 20px;
+
+      .form-control {
+        margin: 0 !important;
+      }
+
+      .btn {
+        margin-right: 20px;
+      }
+    }
+
+    .h-bar {
+      background: none;
+      padding: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      margin: 20px 0;
+
+      ul {
+        li {
+          margin: 0 20px 0 0;
+        }
+
+        li:first-child {
+          flex: 0 0 auto;
+          width: 100%;
+          margin-bottom: 16px;
+          margin-right: 0;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  header {
+    .h-info-social {
+      padding: 20px !important;
+      display: block !important;
+
+      .h-info {
+        margin-bottom: 0;
+
+        li {
+          margin-left: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .h-social {
+        li {
+          margin-left: 0;
+          font-size: 20px;
+        }
+      }
+    }
+
+    nav.navbar {
+      padding: 2px 0;
+      border-top: 0;
+
+      .nav-link {
+        font-size: 16px;
+      }
+
+      .btn-wrapper {
+        padding: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+        .btn-blue {
+          padding: 10px 20px;
+          font-size: 16px;
+          background: var(--yellow);
+          color: var(--sub-heading);
+          border: 1px solid var(--yellow);
+
+          &:hover {
+            color: var(--yellow);
+            background: transparent;
+
+            .fa-paper-plane {
+              color: var(--primary);
+            }
+          }
+
+          .fa-paper-plane {
+            color: var(--sub-heading);
+          }
+        }
+      }
+    }
+
+    .h-social {
+      font-size: 20px;
+    }
+  }
+
+  .navbar-toggler {
+    filter: brightness(11);
+    border: 0;
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+
+  .logo-sm {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+
+    .logo-img {
+      margin-bottom: 0;
+      width: 80px;
+      height: 80px;
+    }
+
+    .close {
+      font-size: 18px;
+      background: white;
+      width: 26px;
+      height: 26px;
+      color: #0c649f;
+      text-align: center;
+      line-height: 27px;
+      border-radius: 50%;
+    }
+  }
+
+  nav.navbar .navbar-nav {
+    padding: 10px 20px;
+    gap: 5px !important;
+    text-transform: capitalize;
+
+    .dropdown:hover .dropdown-menu {
+      width: 100%;
+    }
+  }
+
+  .h-banner {
+    height: 660px;
+
+    .travel-info {
+      padding: 30px;
+      margin-bottom: -15%;
+    }
+  }
+
+  .h-destinations .slider-wrapper {
+    figure {
+      height: 180px;
+      margin-bottom: 0;
+    }
+  }
+
+  .h-destinations .btn-wrapper .btn-blue,
+  .h-categories .btn-wrapper .btn-blue {
+    padding: 12px 30px;
+  }
+
+  .h-activites {
+    .treks ul {
+      padding: 2px 0 2px 20px;
+      margin-bottom: 0;
+
+      li {
+        &::before {
+          width: 20px;
+          height: 20px;
+          left: -21px;
+          top: 3px;
+        }
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .activites-links {
+      figure {
+        height: 118px;
+      }
+    }
+  }
+
+  .stylist-btn {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .h-categories {
+    padding: 60px 0;
+
+    .categories-info {
+      .heading {
+        max-width: 100%;
+      }
+    }
+
+    .categories-wrapper {
+      margin-bottom: 20px;
+
+      .cate-box {
+        &.m-top {
+          margin-top: 40px;
+        }
+
+        p {
+          margin-bottom: 0;
+          font-size: 14px;
+        }
+
+        figure {
+          height: 320px;
+          margin-bottom: 20px;
+
+          figcaption {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+
+  .h-packages {
+    .packages-warpper {
+      margin-bottom: 30px;
+    }
+  }
+
+  .h-testimonials {
+    padding: 60px 0;
+
+    .testimonials-slider {
+      padding: 40px 0;
+
+      &::before {
+        width: 40px;
+        height: 40px;
+        top: 1%;
+        left: 4%;
+      }
+
+      .slick-arrow {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        top: auto;
+        bottom: 6%;
+
+        &.slick-prev {
+          left: 39%;
+
+          z-index: 1;
+        }
+
+        &.slick-next {
+          left: 50%;
+        }
+      }
+    }
+  }
+
+  .contact-section {
+    &::before {
+      width: 64%;
+    }
+
+    .heading {
+      font-size: 36px;
+      margin-bottom: 0;
+      margin-right: 0;
+
+      &::after {
+        right: 11px;
+      }
+    }
+
+    form {
+      margin-bottom: 50px;
+    }
+
+    .row {
+      justify-content: center;
+    }
+  }
+
+  footer {
+    .row {}
+
+    ul {
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .footer-logo {
+      figure {
+        height: 80px;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .footer-links {
+      margin-bottom: 30px;
+    }
+
+    .footer-info {
+      margin-bottom: 30px;
+
+    }
+
+    .inquiry {
+      width: 100%;
+
+      h6 {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .btn-wrapper {
+        margin-top: 20px;
+      }
+    }
+
+    .footer-social {
+      ul a {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .pack-details {
+    .summary-box .summary-ul {
+      padding-left: 10px;
+
+      h5 {
+        font-size: 14px;
+      }
+    }
+
+    .packages-nav a {
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .itinerary-wrapper .accordion .accordion-header .accordion-button {
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    .pack-details .essential-wrapper .essential-ul ul {
+      padding: 16px;
+
+      li {
+        gap: 10px
+      }
+
+      p {
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .inner-heading {
+    font-size: 32px;
+  }
+
+  .inner-banner {
+    height: 230px;
+  }
+
+  .activity-box figure {
+    ::after {
+      padding: 11px;
+    }
+  }
+
+  .dest-details {
+    .activity-box figure {
+      height: 140px;
+
+      figcaption {
+        font-size: 14px;
+        padding: 10px;
+        width: 150px;
+      }
+    }
+  }
+
+  .act-details {
+    .details-img-slider figure {
+      height: 280px;
+    }
+
+    .inner-heading::before {
+      right: 52.5%;
+    }
+
+    .activity-box figure figcaption {
+      top: 45%;
+    }
+  }
+
+  .about-page {
+    .about-bar ul {
+      padding: 10px 0;
+
+      li {
+        padding: 0;
+        font-size: 14px;
+      }
+    }
+
+    .heading-wrapper .heading {
+      font-size: 34px;
+    }
+
+    .about-services .services-box {
+      padding: 10px;
+      gap: 5px;
+
+      figure {
+        width: 26px;
+        height: 26px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .btn-blue {
+    font-size: 14px;
+  }
+
+  .about-page .about-services .btn-wrapper {
+    margin-top: 20px;
+  }
+
+  .about-page .about-travel .travel-box figure {
+    height: 170px;
+  }
+
+  .booking-page .heading-wrapper .heading-ext {
+    font-size: 16px;
+  }
+
+  .login-page .inner-banner {
+    min-height: 550px;
+  }
+
+  .signup-page .inner-banner {
+    min-height: 780px;
+  }
+
+  .signup-page .signup-box form .btn-wrapper {
+    display: block;
+
+    .btn-blue {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
+  .heading {
+    font-size: 30px;
+  }
+
+  .h-banner {
+    height: 820px;
+  }
+
+  .h-banner .travel-info {
+    padding: 30px;
+    margin-bottom: -120px;
+  }
+
+  .h-activites .treks {
+    margin: 20px 20px 0;
+  }
+
+  .h-categories {
+    .categories-info {
+      p {
+        margin-bottom: 10px;
+      }
+
+      .heading {
+        margin-bottom: 20px;
+      }
+    }
+
+    .categories-wrapper .cate-box.m-top {
+      margin: 20px 0 30px;
+      border-bottom: 1px solid #dddddd;
+      border-top: 1px solid #dddddd;
+      padding: 30px 0 20px;
+    }
+  }
+
+  .h-packages .heading,
+  .h-testimonials .heading {
+    margin-right: 30px;
+  }
+
+  .h-packages .packages-box .packages-info h3 {
+    text-wrap: unset;
+  }
+
+  .h-packages .packages-box .packages-info ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-section::before {
+    width: 100%;
+  }
+
+  .contact-section .heading-wrapper {
+    text-align: center;
+
+    .heading {
+      display: inline;
+
+      b {
+        color: white;
+      }
+    }
+  }
+
+  footer {
+    padding: 60px 0;
+
+    .footer-logo {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(13, 96, 156, 0.27);
+
+      figure {
+        margin-bottom: 0;
+
+        img {
+          /* object-position: left; */
+        }
+      }
+    }
+
+    .footer-links {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(13, 96, 156, 0.27);
+
+      ul {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+
+        .list-inline-item {
+          margin: 0;
+
+
+          a {
+            padding: 10px 0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .footer-info {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(13, 96, 156, 0.27);
+
+      ul {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+
+        .list-inline-item:not(:last-child) {
+          margin: 0;
+        }
+
+        a {
+          padding: 10px 0;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .footer-social {
+      ul {
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 0;
+      }
+    }
+
+    .inquiry {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(13, 96, 156, 0.27);
+      text-align: center;
+
+      form,
+      .btn-wrapper {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+      }
+
+      .btn-wrapper {
+        margin-bottom: 0;
+      }
+
+      .input-group .form-control {
+        padding: 9px 12px !important;
+      }
+
+      .btn-transparent {
+        font-size: 14px;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .activity-box figure figcaption::after {
+    padding: 11px !important;
+    right: -20px !important;
+  }
+
+  .dest-details .heading-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .inner-heading::before {
+    display: none;
+  }
+
+  .dest-details .detail-side {
+    margin-top: 30px;
+  }
+
+  .pack-details .packages-nav ul {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .inner-banner h1 {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+  .h-banner {
+    height: 760px;
+
+    .banner-info {
+      h1 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 16px;
+
+        span {
+          display: inline;
+        }
+      }
+    }
+
+    .travel-info {
+      padding: 20px;
+      margin: 0 0 -100px;
+    }
+  }
+
+  .h-destinations {
+    padding-top: 130px;
+  }
+
 }

@@ -11,7 +11,7 @@
     <section class=" section-break">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-md-4">
+                <div class="col-xl-3 col-lg-4 col-md-5">
                     <div class="dest-search">
                         <form action="">
                             <div class="form-group">
@@ -292,7 +292,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-xl-9 col-md-8">
+                <div class="col-xl-9 col-lg-8 col-md-7">
                     <div class="dest-list">
                         <div class="pagination-wrapper">
                             <p>Showing 9 out of 100 </p>
@@ -318,7 +318,7 @@
                         </div>
                         <div class="dest-groups">
                             <div class="row gy-4">
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box trending-box">
                                         <div class="dest-info">
                                             <figure>
@@ -369,7 +369,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box trending-box">
                                         <div class="dest-info">
                                             <figure>
@@ -420,7 +420,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box trending-box">
                                         <div class="dest-info">
                                             <figure>
@@ -471,7 +471,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>
@@ -522,7 +522,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>
@@ -573,7 +573,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>
@@ -624,7 +624,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>
@@ -675,7 +675,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>
@@ -726,7 +726,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-6">
+                                <div class="col-xl-4 col-lg-6 col-md-12 ">
                                     <div class="dest-box packages-box">
                                         <div class="dest-info">
                                             <figure>

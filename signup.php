@@ -9,12 +9,12 @@
     <section class="signup-content">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="heading-wrapper">
                         <h1>Sign up for your personalized travel account today .</h1>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-5">
+                <div class="col-xl-4 col-lg-5 col-md-6">
                     <div class="signup-box">
                         <h4><b>Create</b> account</h4>
                         <form action="">

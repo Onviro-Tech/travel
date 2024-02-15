@@ -5,9 +5,36 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: true,
     prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow.svg">',
     nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow.svg">',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          centerMode: true,
+          centerPadding: "40px",
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
   $(".details-img-slider").slick({
     dots: false,
@@ -26,8 +53,18 @@ $(document).ready(function () {
     centerMode: true,
     slidesToScroll: 1,
     arrows: true,
-    prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow-2.svg">',
+    prevArrow:
+      '<img class="slick-prev" src="./assets/images/svg/arrow-left.svg">',
     nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow-2.svg">',
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
   $(".teams-slider").slick({
     dots: false,
@@ -38,15 +75,29 @@ $(document).ready(function () {
     arrows: true,
     prevArrow: '<img class="slick-prev" src="./assets/images/svg/arrow.svg">',
     nextArrow: '<img class="slick-next" src="./assets/images/svg/arrow.svg">',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   });
 
-  $("#regionDropdown").click(function () {
+  $("#regionDropdown").on("click", function () {
     $(this).siblings(".dropdown-menu").toggleClass("show");
   });
-  $("#activitiesDropdown").click(function () {
+  $("#activitiesDropdown").on("click", function () {
     $(this).siblings(".dropdown-menu").toggleClass("show");
   });
-  $("#budgetDropdown").click(function () {
+  $("#budgetDropdown").on("click", function () {
     $(this).siblings(".dropdown-menu").toggleClass("show");
   });
 
@@ -68,7 +119,7 @@ $(document).ready(function () {
     var clicks = 0;
     var timer = null;
 
-    $(".nav-item .dropdown-toggle").on("click", function (event) {
+    $(".navbar-nav .nav-item .dropdown-toggle").on("click", function (event) {
       clicks++; // Count the number of clicks
 
       if (clicks === 1) {
@@ -86,9 +137,12 @@ $(document).ready(function () {
       event.preventDefault(); // Prevent default link behavior only for .dropdown-toggle
       event.stopPropagation(); // Stop event propagation to prevent it from reaching the document
     });
-    $(".nav-item .dropdown-menu a.dropdown-item").on("click", function (event) {
-      clicks = 0;
-    });
+    $(".navbar-nav .nav-item .dropdown-menu a.dropdown-item").on(
+      "click",
+      function (event) {
+        clicks = 0;
+      }
+    );
   }
   $(".select-with-search").select2();
 
@@ -106,5 +160,30 @@ $(document).ready(function () {
 
   // Call the handleScroll function initially to set the sticky class if necessary
   handleScroll();
+
+  let navbarMenu = document.querySelector(".navbar .navbar-collapse");
+  let closeMenu = document.querySelector(".navbar-collapse .close");
+  let navbarMenuToggler = document.querySelector(".navbar-toggler");
+  console.log(closeMenu);
+  $(closeMenu).click(function () {
+    $(navbarMenu).toggleClass("show");
+    $("body").toggleClass("height-fixed");
+    $(".height-fixed-overlay").remove();
+  });
+  $(navbarMenuToggler).click(function () {
+    $("body").toggleClass("height-fixed");
+    if ($("body").hasClass("height-fixed")) {
+      $(navbarMenu).parent().append('<div class="height-fixed-overlay"></div>');
+    } else {
+      $(".height-fixed-overlay").remove();
+    }
+  });
+  $(document).on("click", ".height-fixed-overlay", function () {
+    $(navbarMenu).toggleClass("show");
+
+    $("body").toggleClass("height-fixed");
+
+    $(".height-fixed-overlay").remove();
+  });
 });
 //dropdown part end
