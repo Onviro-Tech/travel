@@ -13,7 +13,7 @@
                 </div>
                 <div class="travel-info flex-grow-1 ">
                     <form action="">
-                        <div class="row gy-4">
+                        <div class="row gy-md-4 gy-3">
                             <div class="col-lg col-md-6">
                                 <div class="input-group">
                                     <img src="assets/images/svg/location.svg" alt="location">
