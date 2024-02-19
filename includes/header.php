@@ -44,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-transparent" id="navbar">
                 <div class="container">
                     <a class="navbar-brand" href="index.php"><img src="./assets/images/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,7 +62,7 @@
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="destinations.php" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle" href="destinations.php" id="navbarDropdown1"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Destinations
                                 </a>
@@ -72,7 +72,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="activities.php" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle" href="activities.php" id="navbarDropdown2"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Activities
                                 </a>
@@ -82,7 +82,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="packages.php" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle" href="packages.php" id="navbarDropdown3"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Packages
                                 </a>

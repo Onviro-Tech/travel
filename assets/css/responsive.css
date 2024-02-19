@@ -581,7 +581,7 @@
       margin-right: 0;
 
       &::after {
-        right: 11px;
+        /* right: 11px; */
       }
     }
 
@@ -966,6 +966,103 @@
   .inner-banner h1 {
     font-size: 30px;
   }
+
+  .about-page .about-bar ul {
+    flex-wrap: wrap;
+  }
+
+  .booking-page .contact-section form {
+    margin-bottom: 0;
+  }
+
+  .contact-section .heading::after {
+    right: 0;
+  }
+
+  .dest-details .contact-section .heading-wrapper {
+    display: block;
+  }
+
+  .contact-page .social-group {
+    margin-bottom: 30px
+  }
+
+  .signup-page .inner-banner {
+    min-height: 940px;
+  }
+
+  .login-page .inner-banner {
+    min-height: 720px;
+  }
+
+  .signup-page .heading-wrapper h1 {
+    margin-bottom: 20px;
+  }
+
+  .dest-page .dest-search {
+    width: 100%;
+  }
+
+  .sidebar-filter {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    background: #ffffff;
+    z-index: 21;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+    transition: right 0.3s ease-in-out;
+
+    &.show {
+      left: 0;
+
+      .sidebar-close {
+        display: block;
+      }
+    }
+  }
+
+  .sidebar-btn {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    background: #0e6097;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 8px 14px;
+    color: #ffffff;
+    font-size: 14px;
+    top: 50%;
+
+    [class*="fa-"] {
+      margin-right: 5px;
+    }
+
+    &:hover {
+      background: #e8ab12;
+      color: #292929;
+    }
+  }
+
+  .sidebar-close {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    display: none;
+    background: #cd0b0b;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 8px 14px;
+    color: #ffffff;
+    font-size: 14px;
+    top: 50%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -995,5 +1092,14 @@
   .h-destinations {
     padding-top: 130px;
   }
+
+  .about-page .heading-wrapper .heading {
+    font-size: 30px;
+  }
+
+  .booking-page .heading-ext::after {
+    right: 9%;
+  }
+
 
 }
