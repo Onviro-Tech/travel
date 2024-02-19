@@ -2,7 +2,7 @@
 <main class="about-page">
     <section class="inner-banner">
         <div class="container">
-            <h1 class="text-center">About<b>Us</b></h1>
+            <h1 class="text-center">About <b>Us</b></h1>
         </div>
         <figure class="banner-img">
             <img src="assets/images/banner/mount.png" alt="">
@@ -51,44 +51,37 @@
                 <div class="gy-4 row">
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure">
-                                <img src="assets/images/svg/about/package.png" alt="Tour Packages" class="figure-img">
-                            </figure>
+                            <i class="fa-solid fa-box-archive"></i>
                             <p>Tour Packages</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure"><img src="assets/images/svg/about/list.png"
-                                    alt="Customized Itineraries" class="figure-img"></figure>
+                            <i class="fa-solid fa-clipboard-list"></i>
                             <p>Customized Itineraries</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure"><img src="assets/images/svg/about/plane.svg" alt="Flight Booking"
-                                    class="figure-img"></figure>
+                            <i class="fa-solid fa-plane-up"></i>
                             <p>Flight Booking</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure"><img src="assets/images/svg/about/location.png"
-                                    alt="Accommodation Booking" class="figure-img"></figure>
+                            <i class="fa-solid fa-location-dot"></i>
                             <p>Accommodation Booking</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure"><img src="assets/images/svg/about/transportation.png"
-                                    alt="Transportation" class="figure-img"></figure>
+                            <i class="fa-solid fa-car"></i>
                             <p>Transportation</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="services-box">
-                            <figure class="figure"><img src="assets/images/svg/about/guide.png" alt="Guided Tours"
-                                    class="figure-img"></figure>
+                            <i class="fa-solid fa-person-hiking"></i>
                             <p>Guided Tours</p>
                         </div>
                     </div>

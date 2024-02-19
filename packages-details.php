@@ -94,9 +94,9 @@
                             <div class="row gy-4 ">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/cal.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-regular fa-calendar-days"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Duration</p>
@@ -109,9 +109,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/location.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Trip Starts</p>
@@ -124,9 +124,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/map.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-solid fa-map"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Trip Ends</p>
@@ -139,9 +139,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/users.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-solid fa-user-group"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Group Size</p>
@@ -154,9 +154,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/trekking.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-solid fa-person-hiking"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Activity Inclusions</p>
@@ -169,9 +169,9 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <div class="summary-box">
-                                        <figure class="summary-icon">
-                                            <img src="assets/images/svg/packages/weather.svg" alt="">
-                                        </figure>
+                                        <div class="summary-icon">
+                                            <i class="fa-solid fa-cloud-sun-rain"></i>
+                                        </div>
                                         <ul class="summary-ul">
                                             <li>
                                                 <p>Best Season</p>

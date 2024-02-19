@@ -219,8 +219,9 @@
   }
 
   .pack-details .summary-box .summary-icon {
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
   }
 
   .pack-details .summary-box .summary-ul h5 {
@@ -255,6 +256,10 @@
   .dest-details .dest-groups .inner-heading &::before {
     right: 33%;
   }
+
+  .contact-section::before {
+    width: 51.6%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -280,7 +285,7 @@
     position: fixed;
     top: 0;
     right: -300px;
-    background: #0c649f;
+    background: var(--primary);
     z-index: 21;
     height: 100vh;
     width: 100%;
@@ -375,12 +380,12 @@
         .btn-blue {
           padding: 10px 20px;
           font-size: 16px;
-          background: var(--yellow);
+          background: var(--secondary);
           color: var(--sub-heading);
-          border: 1px solid var(--yellow);
+          border: 1px solid var(--secondary);
 
           &:hover {
-            color: var(--yellow);
+            color: var(--secondary);
             background: transparent;
 
             .fa-paper-plane {
@@ -428,7 +433,7 @@
       background: white;
       width: 26px;
       height: 26px;
-      color: #0c649f;
+      color: var(--primary);
       text-align: center;
       line-height: 27px;
       border-radius: 50%;
@@ -540,15 +545,16 @@
   .h-testimonials {
     padding: 60px 0;
 
+    .testimonials-slide-wrapper .svg-wrapper {
+      width: 40px;
+      height: 40px;
+      top: 1%;
+      left: 4%;
+    }
+
     .testimonials-slider {
       padding: 40px 0;
 
-      &::before {
-        width: 40px;
-        height: 40px;
-        top: 1%;
-        left: 4%;
-      }
 
       .slick-arrow {
         width: 50px;
@@ -572,13 +578,22 @@
 
   .contact-section {
     &::before {
-      width: 64%;
+      width: 100%;
+    }
+
+    .heading-wrapper {
+      text-align: center;
     }
 
     .heading {
       font-size: 36px;
       margin-bottom: 0;
       margin-right: 0;
+      padding-left: 0;
+
+      b {
+        color: var(--white);
+      }
 
       &::after {
         /* right: 11px; */
@@ -730,7 +745,7 @@
 
     .about-services .services-box {
       padding: 10px;
-      gap: 5px;
+      gap: 10px;
 
       figure {
         width: 26px;
@@ -809,8 +824,8 @@
 
     .categories-wrapper .cate-box.m-top {
       margin: 20px 0 30px;
-      border-bottom: 1px solid #dddddd;
-      border-top: 1px solid #dddddd;
+      border-bottom: 1px solid var(--light-grey);
+      border-top: 1px solid var(--light-grey);
       padding: 30px 0 20px;
     }
   }
@@ -1007,7 +1022,7 @@
     position: fixed;
     top: 0;
     left: 100%;
-    background: #ffffff;
+    background: var(--white);
     z-index: 21;
     height: 100vh;
     width: 100%;
@@ -1032,11 +1047,11 @@
     position: fixed;
     z-index: 10;
     left: 0;
-    background: #0e6097;
+    background: var(--primary);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 8px 14px;
-    color: #ffffff;
+    color: var(--white);
     font-size: 14px;
     top: 50%;
 
@@ -1045,8 +1060,8 @@
     }
 
     &:hover {
-      background: #e8ab12;
-      color: #292929;
+      background: var(--secondary);
+      color: var(--sub-heading);
     }
   }
 
@@ -1055,11 +1070,11 @@
     z-index: 10;
     right: 0;
     display: none;
-    background: #cd0b0b;
+    background: var(--secondary);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     padding: 8px 14px;
-    color: #ffffff;
+    color: var(--white);
     font-size: 14px;
     top: 50%;
   }
